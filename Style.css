@@ -1,0 +1,37 @@
+*{
+    text-align: center;
+}
+h1{
+    text-decoration: underline;
+}
+body{
+    background-color: #BB2727;
+}
+.menu{
+    border:dotted;
+}
+.games{
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.socialmedia{
+    display: flex;
+    justify-content: center;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+.games:hover img{
+    opacity: 0.1;
+}
+
+.games:hover p{
+    opacity: 1;
+}
